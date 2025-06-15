@@ -10,7 +10,8 @@ div.container{
     gap: 20px;
 }
 .card{
-    background-color: #fff;
+    width: 100%;
+    background-color: #26124e;
     border: 2px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -23,13 +24,23 @@ div.container{
 .card img{
     width: 100%;
     display: block;
+
 }
+
+.card video{
+    width: 100%; 
+    display: block;
+    
+    
+
+}    
+
 .card-content{
     padding: 20px;
 }
 .card-content h2{
     margin-bottom: 10px;
-    color: #1e90ff;
+    color: #dcdcdc;
     font-size: 1.4;
 }
 .card-content p{
