@@ -4,12 +4,12 @@ div.container{
     margin: 0 40px;
     padding: 20px 20px;
 }
-.destinos{
+aside.destinos{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
 }
-.card{
+aside.card{
     width: 100%;
     background-color: #414142;
     border: 4px solid #7a7e83;
@@ -17,17 +17,17 @@ div.container{
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.card:hover{
+aside.card:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 16px #7a7e83;
 }
-.card img{
+aside.card img{
     width: 100%;
     display: block;
 
 }
 
-.card video{
+aside.card video{
     width: 100%; 
     display: block;
     

@@ -1,4 +1,4 @@
-div.header{
+header{
     background-image:  url('/img/bannercerto.png');
     background-size: cover;
     background-position: center;
@@ -7,17 +7,17 @@ div.header{
     border-bottom: 4px solid #7a7e83;
 }
 
-div.header .logo{
+header .logo{
     font-size: 1.8rem;
     color: #7a7e83;
     text-decoration: none;
 }
 
-div.header .nav{
+header nav{
     margin-top: 20px;
 }
 
-div.header div.nav a{
+header nav a{
     color: #f0f8ff;
     margin-right: 15px;
     text-decoration: none;
@@ -26,6 +26,6 @@ div.header div.nav a{
     border-radius: 4px;
     transition: background-color 0.2s;
 }
-div.header div.nav a:hover {
+header nav a:hover {
     background-color: rgb(0, 0, 0);
 }
